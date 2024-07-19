@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+body .wrapper-cancel-popupmodel {
+  display: none;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel {
+  width: 1018px;
+  height: 700px;
+  position: absolute;
+  top: 128px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel .header-cancel {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel .header-cancel h2 {
+  font-weight: 300;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel .wrapper-button-cancel {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel .wrapper-button-cancel .button-cancel {
+  width: 721px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+body .wrapper-cancel-popupmodel .cancel-popupmodel .wrapper-button-cancel .button-cancel div button {
+  width: 233px;
+  height: 84px;
+  font-size: 30px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+body .wrapper {
+  width: 1265px;
+}
+body .wrapper header {
+  width: 1265px;
+  margin: 38px 0 71px 0;
+}
+body .wrapper header h1 {
+  font-size: 40px;
+  text-align: center;
+}
+body .wrapper .search-zone {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 54px;
+}
+body .wrapper .search-zone div {
+  width: 591px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 36px;
+}
+body .wrapper .search-zone div .search-radio {
+  width: 109px;
+  height: 40px;
+  border: 1px solid #333;
+}
+body .wrapper .search-zone div .search-input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #333;
+}
+body .wrapper .search-zone div .search-input input {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  padding-left: 12px;
+}
+body .wrapper .search-zone div .search-button {
+  width: 109px;
+  height: 40px;
+}
+body .wrapper .search-zone div .search-button button {
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+body .wrapper .table-zone {
+  width: 1265px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  margin-bottom: 66px;
+}
+body .wrapper .table-zone div {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+}
+body .wrapper .table-zone div .ma-dang-ky {
+  width: 108px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+body .wrapper .table-zone div .ma-dang-ky h4 {
+  font-size: 16px;
+  width: 108px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone div .phong {
+  width: 80px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+body .wrapper .table-zone div .phong h4 {
+  font-size: 16px;
+  width: 80px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone div .ten-giao-vien {
+  width: 276px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+body .wrapper .table-zone div .ten-giao-vien h4 {
+  font-size: 16px;
+  width: 276px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone div .ngay-muon {
+  width: 211px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+body .wrapper .table-zone div .ngay-muon h4 {
+  font-size: 16px;
+  width: 211px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone div .thoi-gian-muon {
+  width: 295px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
+body .wrapper .table-zone div .thoi-gian-muon h4 {
+  font-size: 16px;
+  width: 295px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone div .rong {
+  width: 295px;
+  height: 41px;
+  border-bottom: 1px solid #333;
+}
+body .wrapper .table-zone div .rong h4 {
+  font-size: 16px;
+  width: 295px;
+  height: 41px;
+  line-height: 40px;
+  text-align: center;
+}
+body .wrapper .table-zone #renderTable {
+  width: 100%;
+  height: 416px;
+}
+body .wrapper div {
+  display: flex;
+  justify-content: flex-end;
+}
+body .wrapper div div {
+  width: 233px;
+  height: 84px;
+  font-size: 30px;
+}
+body .wrapper div div button {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  background-color: #fff;
+  border: 1px solid #333;
+}/*# sourceMappingURL=PROJECT.css.map */

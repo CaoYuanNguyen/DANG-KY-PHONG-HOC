@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh Sách Phòng Học</title>
+    <link rel="stylesheet" href="./scss/PROJECT.css" />
+  </head>
+  <body>
+    <div class="wrapper-cancel-popupmodel">
+      <div class="cancel-popupmodel">
+        <div class="header-cancel">
+          <h2>BẠN CÓ CHẮC HỦY ĐĂNG KÝ LỚP HỌC NÀY KHÔNG?</h2>
+        </div>
+        <div class="wrapper-button-cancel">
+          <div class="button-cancel">
+            <div>
+              <button>KHÔNG HỦY</button>
+            </div>
+            <div>
+              <button>ĐỒNG Ý</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <!-- header -->
+      <header>
+        <h1>Danh Sách Phòng Học</h1>
+      </header>
+
+      <!-- search -->
+      <div class="search-zone">
+        <div>
+          <!-- radio -->
+          <div class="search-radio">
+            <select
+              style="
+                width: 109px;
+                height: 100%;
+                font-size: 16px;
+                text-align: center;
+              "
+            >
+              <option value="PHÒNG">PHÒNG</option>
+              <option value="Tên GV">Tên GV</option>
+              <option value="NGÀY">NGÀY</option>
+            </select>
+          </div>
+          <!-- search input -->
+          <div class="search-input">
+            <input type="text" />
+          </div>
+          <!-- search button -->
+          <div class="search-button">
+            <button>TÌM KIẾM</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- table -->
+      <div class="table-zone">
+        <!-- header -->
+        <div>
+          <div class="ma-dang-ky">
+            <h4>MÃ ĐK</h4>
+          </div>
+          <div class="phong">
+            <h4>PHÒNG</h4>
+          </div>
+          <div class="ten-giao-vien">
+            <h4>Tên Giáo Viên</h4>
+          </div>
+          <div class="ngay-muon">
+            <h4>Ngày Mượn</h4>
+          </div>
+          <div class="thoi-gian-muon">
+            <h4>Thời Gian Mượn</h4>
+          </div>
+          <div class="rong"></div>
+        </div>
+        <!-- render -->
+        <div id="renderTable">
+          <!-- 
+          <div>
+            <div>
+                1
+            </div>
+            <div>
+                11
+            </div>
+            <div>
+                Thảo Nhi 
+            </div>
+            <div>
+                12/03/2024
+            </div>
+            <div>
+                13:30-16:30
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <button>Chi Tiết</button>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button>Hủy</button>
+                    </div>
+                </div>
+            </div>
+          <div>
+            .......
+          <div>
+            <div>
+                1
+            </div>
+            <div>
+                11
+            </div>
+            <div>
+                Thảo Nhi 
+            </div>
+            <div>
+                12/03/2024
+            </div>
+            <div>
+                13:30-16:30
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <button>Chi Tiết</button>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button>Hủy</button>
+                    </div>
+                </div>
+            </div>
+          <div>
+           -->
+        </div>
+      </div>
+
+      <!-- DangKy -->
+      <div>
+        <div>
+          <button id="dangKyButton">ĐĂNG KÝ</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./PROJECT.js"></script>
+  </body>
+</html>
