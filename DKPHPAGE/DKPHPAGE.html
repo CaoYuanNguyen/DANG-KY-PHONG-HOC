@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANG KY PHONG HOC</title>
+    <link rel="stylesheet" href="./scss/DKPHPAGE.css">
+</head>
+<body>
+    <div class="wrapper-dkph">
+        <header>
+            <h1>ĐĂNG KÝ PHÒNG HỌC</h1>
+        </header>
+        <!-- TABLE DKPH -->
+        <div class="table-dkph">
+            <!-- DIEN THONG TIN -->
+            <div class="dien-thong-tin-dkhp">
+                <div class="wrapper-thong-tin-tengv">
+                    <div class="thong-tin-tengv">
+                        <div class="ten-gv-dkph">
+                            <p>Tên Giáo Viên</p>
+                        </div>
+                        <div class="ma-gv-dkph">
+                            <p>Mã Giáo Viên</p>
+                        </div>
+                        <div class="sdt-dkhp">
+                            <p>SDT</p>
+                        </div>
+                        <div class="email-dkhp">
+                            <p>Email</p>
+                        </div>
+                    </div>
+                    <div class="dien-thong-tin-tengv">
+                        <div class="ten-gv-dkph-input">
+                            <input type="text" id="thongTinGV">
+                        </div>
+                        <div class="ma-gv-dkph-input">
+                            <input type="text" id="maGV">
+                        </div>
+                        <div class="sdt-dkhp-input">
+                            <input type="text" id="sdt">
+                        </div>
+                        <div class="email-dkhp-input">
+                            <input type="text" id="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-thong-tin-phong-hoc">
+                    <div class="thong-tin-phong-hoc">
+                        <div class="wrapper-phong-hoc">
+                            <div class="phong-hoc-text">
+                                <p>Phòng Học</p>
+                            </div>
+                            <div class="phong-hoc-input">
+                                <input type="text" id="phongHoc">
+                            </div>
+                        </div>
+                        <div class="wrapper-so-luong-hoc-sinh">
+                            <div class="so-luong-hoc-sinh-text">
+                                <p>Số Lượng Học Sinh</p>
+                            </div>
+                            <div class="so-luong-hoc-sinh-input">
+                                <input type="text" id="soLuongHocSinh">
+                            </div>
+                        </div>
+                        <div class="wrapper-ngay-muon">
+                            <div class="ngay-muon-text">
+                                <p>Ngày Mượn</p>
+                            </div>
+                            <div class="ngay-muon-input">
+                                <input type="text" id="ngayMuon">
+                            </div>
+                        </div>
+                        <div class="gio-muon-wrapper">
+                            <div class="gio-muon-text">
+                                <p>Giờ Mượn</p>
+                            </div>
+                            <div class="gio-muon-input">
+                                <input type="text" id="gioMuon">
+                            </div>
+                            <div class="den-text">
+                                <p>đến</p>
+                            </div>
+                            <div class="den-input">
+                                <input type="text" id="den">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- BANG GHI CHU VA NUT DANG KY -->
+            <div class="wrappep-note-button-dkph">
+                <!-- BANG GHI CHU -->
+                <div class="wrapper-note-dkph">
+                    <div class="note-dkph">
+                        <p>Ghi Chú</p>
+                    </div>
+                    <div class="note-dkhp-input">
+                        <textarea name="note" id="noteDkhp"  ></textarea>
+                    </div>
+                </div>
+                <!-- NUT DANG KY -->
+                <div class="button-dang-ky-dkph">
+                    <button id="dkButton">ĐĂNG KÝ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./DKPHPAGE.js"></script>
+</body>
+</html>
